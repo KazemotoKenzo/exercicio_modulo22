@@ -45,4 +45,18 @@
             line-height: 22px;
         }
     }
+
+    @media (max-width:640px) {
+        .container{
+            display: block;
+        }
+
+        &__img{
+            width: 100%;
+        }
+
+        &__text{
+            margin-bottom: 16px;
+        }
+    }
 }
