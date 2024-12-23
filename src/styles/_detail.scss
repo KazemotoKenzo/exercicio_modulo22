@@ -1,0 +1,48 @@
+@use 'var';
+
+.games{
+    padding: 80px 0;
+
+    &--eldenring{
+        background-image: linear-gradient(var.$cor1, var.$cor2);
+    }
+
+    &--wukong{
+        background-image: linear-gradient(var.$cor2, var.$cor3);
+    }
+
+    &--final-fantasy{
+        background-image: linear-gradient(var.$cor3, var.$cor2);
+    }
+
+    &--astro-bots{
+        background-image: linear-gradient(var.$cor2, var.$cor1);
+    }
+
+    &--left-img{
+        .container{
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container{
+        align-items: center;
+        display: flex;
+        gap: 16px;
+    }
+
+    &__img{
+        max-width: 500px;
+    }
+
+    &__detail{
+        &__title{
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        &__text{
+            line-height: 22px;
+        }
+    }
+}

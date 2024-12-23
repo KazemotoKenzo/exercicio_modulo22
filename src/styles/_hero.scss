@@ -8,7 +8,6 @@
     .container{
         position: relative;
         text-align: center;
-        color: #fff;
     }
     
     &::before{
@@ -38,10 +37,7 @@
     }
 
     &__anonovo{
-    }
-
-    &__info{
-
+        display: none;
     }
 
     @media (max-width:387px) {
