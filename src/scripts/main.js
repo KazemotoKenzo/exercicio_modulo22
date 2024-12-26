@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataDoEvento = new Date("Jan 01, 2025 00:00");
+const dataDoEvento = new Date("Aug 08, 2025 22:00");
 const TimeStampDoEvento = dataDoEvento.getTime();
 
 const contaHoras = setInterval(function(){
@@ -29,7 +29,7 @@ const contaHoras = setInterval(function(){
         clearInterval(contaHoras);
         
         const contagem = document.getElementById('contagem');
-        const anonovo = document.getElementById('anonovo');
+        const anonovo = document.getElementById('aniversario');
 
         contagem.style.display = 'none';
         anonovo.style.display = 'block';

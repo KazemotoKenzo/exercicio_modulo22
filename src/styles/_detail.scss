@@ -1,21 +1,21 @@
 @use 'var';
 
-.games{
+.details{
     padding: 80px 0;
 
-    &--eldenring{
+    &--churrasco{
         background-image: linear-gradient(var.$cor1, var.$cor2);
     }
 
-    &--wukong{
+    &--musica{
         background-image: linear-gradient(var.$cor2, var.$cor3);
     }
 
-    &--final-fantasy{
+    &--bolo{
         background-image: linear-gradient(var.$cor3, var.$cor2);
     }
 
-    &--astro-bots{
+    &--jogos{
         background-image: linear-gradient(var.$cor2, var.$cor1);
     }
 
@@ -32,7 +32,7 @@
     }
 
     &__img{
-        max-width: 500px;
+        max-width: 400px;
     }
 
     &__detail{
@@ -52,6 +52,9 @@
         }
 
         &__img{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
             width: 100%;
         }
 

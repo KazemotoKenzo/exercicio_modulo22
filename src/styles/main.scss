@@ -1,5 +1,7 @@
 @use 'hero';
 @use 'detail';
+@use './components/info-bar';
+@use './components/btn';
 
 *{
     margin: 0;
@@ -7,6 +9,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    list-style: none;
 }
 
 .container{

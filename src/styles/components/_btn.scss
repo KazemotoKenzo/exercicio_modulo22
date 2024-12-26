@@ -1,0 +1,31 @@
+.btn {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+    &--primary {
+        color: #fff;
+        background-color: #4d3a83;
+        &:hover{
+            background-color: lighten(#4d3a83, 3%);
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

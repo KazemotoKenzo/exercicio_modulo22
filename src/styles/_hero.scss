@@ -21,12 +21,12 @@
         content: "";
     }
 
-    &__contagem, &__anonovo, #contador{
+    &__contagem, &__expirou, #contador{
         font-size: 40px;
         font-weight: 800;
     }
 
-    &__contagem, &__anonovo{
+    &__contagem, &__expirou{
         margin-bottom: 100px;
     }
 
@@ -36,7 +36,7 @@
         color: dodgerblue;
     }
 
-    &__anonovo{
+    &__expirou{
         display: none;
     }
 
